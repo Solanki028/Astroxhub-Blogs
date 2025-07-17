@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 // THIS IS A TEMPORARY DIAGNOSTIC VERSION TO FIND THE ERROR
 const AdminBlogTable = ({ blogs, onEdit, onDelete }) => {
-    const [deleteId, setDeleteId] = useState(null);
+    const [ setDeleteId] = useState(null);
 
     return (
         <div className="overflow-x-auto rounded-lg shadow-md mt-8 border border-gray-200 dark:border-gray-700">

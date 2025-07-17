@@ -61,18 +61,18 @@
     }
 
     document.addEventListener("DOMContentLoaded", () => {
-      const icon = document.getElementById("custom-google-icon");
+      // const icon = document.getElementById("custom-google-icon");
       const selector = document.getElementById("language_selector");
 
-      icon.addEventListener("click", () => {
-        selector.style.display = selector.style.display === "none" ? "block" : "none";
-      });
+      // icon.addEventListener("click", () => {
+      //   selector.style.display = selector.style.display === "none" ? "block" : "none";
+      // });
 
       selector.addEventListener("change", () => {
         const lang = selector.value;
         if (lang) {
           triggerTranslation(lang);
-          selector.style.display = "none";
+          // selector.style.display = "none";
         }
       });
 
